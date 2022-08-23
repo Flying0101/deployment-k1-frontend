@@ -1,0 +1,219 @@
+*{ 
+    font-family: sans-serif;
+}
+
+#sendForm {
+
+    position: absolute;
+    top: 83%;
+    left: 35%;
+    width: 40%;
+    display: flex;
+
+}
+  
+#messageId {
+    flex-grow: 1;
+}
+
+.allRooms {
+    width: 21%;
+    height: 60%;
+    position: absolute;
+    left: 10.7%;
+    top: 20.7%;
+    color: #2D3E50;
+    border: 2px solid black;
+    padding: 0.2rem;
+}
+
+li {
+    list-style-type: none;
+    padding: 5px;
+}
+
+.roomList {
+    position: absolute;
+    left: -12%;
+    top: 5%;
+
+
+}
+
+#messageBox {
+    width: 53.8%;
+    height: 57%;
+    position: absolute;
+    left: 35%;
+    top: 20.7%;
+    color: #2D3E50;
+    border: 3px solid black;
+    padding: 0.2rem;
+}
+
+.scroll {
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden ;
+
+}
+
+.scrollForRooms {
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.msgHeader {
+    position: absolute;
+    top: -7%;
+    left: 0%;
+
+}
+
+.roomContainer {
+    position: absolute;
+    top: -5%;
+    left: 1%;
+
+}
+
+.content {
+
+    width: auto;
+    height: auto;
+    background-color: #43a047;
+    border-radius: 5px;
+    color: white;
+    display: flex;
+    align-items: center;
+    margin-right: 5px;
+    margin-left: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
+    overflow-wrap: break-word;
+    word-break: break-word;
+}
+
+.content-meta {
+    display: flex;
+    font-size: 12px;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+#you {
+    justify-content: flex-start;
+}
+
+#you .content {
+    justify-content: flex-start;
+}
+
+#you .content-meta {
+    justify-content: flex-start;
+    margin-left: 5px;
+}
+
+#other {
+    justify-content: flex-end;
+}
+
+#other .content {
+    justify-content: flex-end;
+    background-color: cornflowerblue;
+}
+
+#other .content-meta {
+    justify-content: flex-end;
+    margin-right: 5px;
+}
+
+
+
+.addRoom{
+
+    position:absolute; 
+    top: 11%; 
+    left: 10.7%; 
+ 
+
+}
+
+.roomClick:hover{ 
+    color: black; 
+    border-left: 5px solid green;
+    border-right: 5px solid green;
+
+    background: none;
+    transition-duration: 0.2s; 
+    cursor: grab;
+    font-size: 1.05rem; 
+
+}
+
+.roomClick{
+    display: inline-block;
+}
+
+.delete{ 
+    color: red; 
+    background: white;
+    border: white;
+    float: right; 
+    margin-top: 20px; 
+    width: 15%;
+    font-size: 0.9rem;
+    margin-right: 7px;
+    
+}
+
+.delete:hover{ 
+    color: white; 
+    background: red; 
+    float: right; 
+    margin-top: 20px; 
+    transition-duration: 0.3s;
+    cursor: grab;
+    font-size: 0.77rem; 
+    border-radius: 10px;
+    
+}
+
+
+.wholeChatt{
+    position:absolute;
+    border: 20px solid rgb(0, 9, 92);
+    height: 70%;
+    width: 80%;
+    
+    left: 50%; 
+    top: 50%;
+
+    transform: translate(-50%, -50%); 
+
+  
+    padding: 0;
+    margin: 0;
+    background: rgb(255, 255, 255);
+
+    border-radius: 70px;
+}
+
+.roomArea{
+    position: relative;
+    box-shadow: 2px 2px 5px black; 
+    height: 15%;
+    width: 94%;
+    left: 3%;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.roomArea:hover{ 
+    border: 1px solid black;
+    
+
+}

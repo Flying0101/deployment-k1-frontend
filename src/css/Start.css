@@ -1,0 +1,16 @@
+
+
+.entrance { 
+    position: absolute; 
+    top: 41%; 
+    left: 41%; 
+    background-color: black; 
+    padding: 2rem; 
+    border-radius: 20px; 
+    color: white; 
+
+}
+
+.entrance:hover{
+    color: lightgreen; 
+}
