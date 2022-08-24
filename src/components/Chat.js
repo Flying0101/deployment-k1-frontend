@@ -4,7 +4,7 @@ import { io } from 'socket.io-client';
 import ScrollToBottom from 'react-scroll-to-bottom';
 
 
-const socket = io('https://git.heroku.com/testing-back223.git');
+const socket = io('https://testing-back223.herokuapp.com/');
 
 
   function Chat() {
